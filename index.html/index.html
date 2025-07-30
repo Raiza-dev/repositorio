@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- Declara o tipo do documento como HTML5 -->
+
+<html lang="pt-BR">
+<!-- Início do documento HTML com atributo de idioma português do Brasil -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Define o conjunto de caracteres para UTF-8 para suportar caracteres especiais -->
+
+  <title>Meu Portfólio</title>
+  <!-- Título da aba do navegador -->
+
+  <link rel="stylesheet" href="style.css"> 
+  <!-- Link externo para o arquivo CSS que estiliza o site -->
+
+</head>
+
+<!-- Botão para voltar ao topo da página -->
+<button onclick="voltarAoTopo()" id="btnTopo" title="Voltar ao topo">⬆</button>
+
+<script>
+  // Script para controlar visibilidade e funcionamento do botão "Voltar ao topo"
+
+  window.onscroll = function () {
+    // Evento que dispara toda vez que o usuário rola a página
+
+    let btn = document.getElementById("btnTopo");
+    // Pega o botão pelo ID
+
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      // Se rolou mais de 300px para baixo na página, mostra o botão
+      btn.style.display = "block";
+    } else {
+      // Caso contrário, esconde o botão
+      btn.style.display = "none";
+    }
+  };
+
+  // Função para rolar suavemente até o topo da página quando o botão é clicado
+  function voltarAoTopo() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+<body>
+  <!-- Corpo da página que contém todo o conteúdo visível -->
+
+  <header>
+    <!-- Cabeçalho do site, geralmente contém navegação -->
+
+    <nav class="menu-fixo">
+      <!-- Menu fixo no topo da página -->
+
+      <ul>
+        <!-- Lista não ordenada dos links de navegação -->
+
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <!-- Link que leva à seção "Sobre Mim" -->
+
+        <li><a href="#formacao">Formação</a></li>
+        <!-- Link que leva à seção "Formação" -->
+
+        <li><a href="#experiencia">Experiência</a></li>
+        <!-- Link que leva à seção "Experiência" -->
+
+        <li><a href="#habilidades">Habilidades</a></li>
+        <!-- Link que leva à seção "Habilidades" -->
+
+        <li><a href="#objetivo">Objetivo</a></li>
+        <!-- Link que leva à seção "Objetivo" -->
+
+        <li><a href="#projetos">Projeto</a></li>
+        <!-- Link que leva à seção "Projeto" -->
+
+        <li><a href="#contato">Contato</a></li>
+        <!-- Link que leva à seção "Contato" -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção "Hero" com apresentação principal -->
+  <section class="hero">
+    <img src="WhatsApp Image 2025-07-22 at 19.44.16.jpeg" alt="Foto de Raiza" class="foto-hero">
+    <!-- Foto da Raiza com classe para estilização -->
+
+    <h1>Raiza Vicente</h1>
+    <!-- Título principal, geralmente o nome -->
+
+    <p>Apaixonada por tecnologia e por criar soluções digitais que geram impacto e valor.</p>
+    <!-- Pequena frase ou slogan -->
+
+    <a href="#projetos" class="botao-hero">Veja meus projetos</a>
+    <!-- Botão que leva para a seção de projetos -->
+  </section>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre" class="sobre-mim fade-in">
+    <h2 class="titulo-centralizado">Sobre Mim</h2>
+    <!-- Título da seção com alinhamento centralizado -->
+
+    <p>
+      Me chamo Raiza Vicente, sou estudante de Análise e Desenvolvimento de Sistemas e atuo como desenvolvedora web. Minha trajetória profissional tem sido marcada por muita dedicação, aprendizado contínuo e um forte desejo de transformar ideias em soluções digitais reais.
+      Iniciei minha transição para a tecnologia com muita curiosidade e vontade de criar. Tive a oportunidade de estagiar na Hubfi, onde atuei diretamente no desenvolvimento de sites e sistemas web. Nesse período, pude aplicar meus conhecimentos em HTML, CSS, JavaScript e práticas de versionamento com Git, além de entender na prática o fluxo de desenvolvimento de projetos.
+      Tenho participado da criação de sites funcionais e responsivos para diferentes segmentos, como lojas virtuais e sistemas de pedidos, sempre buscando entregar uma boa experiência para o usuário. Estou em constante evolução, estudando design de interfaces, usabilidade e aprofundando meus conhecimentos em desenvolvimento front-end.
+    </p>
+  </section>
+
+  <!-- Seção Formação Acadêmica -->
+  <section id="formacao" class="formacao fade-in">
+    <h2>Formação Acadêmica</h2>
+    <!-- Título da seção -->
+
+    <ul>
+      <!-- Lista dos cursos -->
+
+      <li>
+        <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong> – UNINASSAU<br> 2022.2 - 2026.02 (em andamento)
+        <!-- Curso atual, em negrito, com instituição e período -->
+      </li>
+
+      <li>
+        <strong>Técnico em Agropecuária</strong> – Instituto Federal de Pernambuco, Campus Barreiros<br>
+        2020 - 2022
+        <!-- Curso técnico anterior -->
+      </li>
+    </ul>
+  </section>
+
+  <!-- Seção Experiência Profissional -->
+  <section id="experiencia" class="experiencia fade-in">
+    <h2>Experiência Profissional</h2>
+
+    <ul>
+      <li>
+        <strong>Estágio como Desenvolvimento Web - Hubfi</strong><br>
+        2024 - Presente<br>
+        Atuação no desenvolvimento e manutenção de sites, com foco na implementação de novas funcionalidades, otimização de performance e aprimoramento contínuo da interface e da experiência do usuário.
+      </li>
+
+      <li>
+        <strong>Experiência em Vendas e Pré-Vendas</strong><br>
+        Experiência no atendimento ao cliente, prospecção ativa de leads qualificados e suporte às estratégias comerciais para impulsionar resultados e fortalecer o relacionamento com o cliente.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Seção Habilidades -->
+  <section id="habilidades" class="habilidades fade-in">
+    <h2>Habilidades</h2>
+    
+    <h3>Habilidades Técnicas</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git e GitHub</li>
+      <li>VS Code</li>
+      <li>Pacote Office</li>
+      <li>Figma</li>
+      <li>Canva</li>
+      <li>Trello</li>
+      <li>Notion</li>
+    </ul>
+    
+    <h3>Habilidades Comportamentais</h3>
+    <ul>
+      <li>Trabalho em equipe</li>
+      <li>Organização</li>
+      <li>Proatividade</li>
+      <li>Aprendizado contínuo</li>
+      <li>Comunicação eficaz</li>
+      <!-- Repetidos, pode remover as duplicatas -->
+      <li>Organização</li>
+      <li>Proatividade</li>
+      <li>Aprendizado contínuo</li>
+    </ul>
+  </section>
+
+  <!-- Seção Objetivo Profissional -->
+  <section id="objetivo" class="objetivo fade-in">
+    <h2>Objetivo Profissional</h2>
+
+    <p>Busco oportunidades na área de tecnologia, onde eu possa aplicar meus conhecimentos técnicos, explorar diferentes áreas e continuar em constante evolução profissional. Tenho interesse em contribuir com soluções inovadoras e aprender com cada novo desafio.</p>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projetos" class="projetos fade-in">
+    <div class="projeto">
+      <h2>Projeto 1</h2>
+      <p><strong>Site de venda para Loja Sena MakeUp</strong></p>
+      <p>Desenvolvemos um site moderno para a loja Sena Makeup, com sistema de vendas integrado e design responsivo.</p>
+      <a href="https://github.com/Raiza-dev/web-site-senamakeup" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+    </div>
+
+    <div class="projeto">
+      <h2>Projeto 2</h2>
+      <p><strong>Site de pedidos para o restaurante Espaço Buffet</strong></p>
+      <p>Criamos um site para pedidos online no restaurante Espaço Buffet, facilitando a experiência dos clientes.</p>
+      <a href="https://github.com/Raiza-dev/Restaurante-espaco-buffet" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+    </div>
+  </section>
+
+  <!-- Seção Redes Sociais -->
+  <section id="redes-sociais">
+    <h2>Minhas Redes</h2>
+
+    <div class="icones-redes">
+      <!-- Ícones com links para as redes sociais -->
+
+      <a href="https://github.com/Raiza-dev" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      </a>
+
+      <a href="https://www.linkedin.com/in/raiza-vicente-618140291/" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+      </a>
+
+      <a href="https://www.instagram.com/raizakarollaine/" target="_blank" title="Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+
+      <a href="https://w.app/raizavicente" target="_blank" title="whatsapp">
+        <img src="OIP-removebg-preview.png" alt="whatsapp">
+      </a>
+
+      <a href="mailto:raizavicente.dev@gmail.com?subject=Ol%C3%A1,+vim+atrav%C3%A9s+do+seu+portf%C3%B3lio" target="_blank" title="email">
+        <img src="R.png" alt="email">
+      </a>
+    </div>
+  </section>
+
+  <!-- Seção Contato com formulário -->
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+
+    <form action="https://formsubmit.co/SEU_EMAIL" method="POST">
+      <!-- Formulário que envia dados para um serviço externo (formsubmit.co) -->
+
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <!-- Campo para nome, obrigatório -->
+
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <!-- Campo para email, obrigatório -->
+
+      <textarea name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+      <!-- Campo para mensagem, obrigatório -->
+
+      <button type="submit">Enviar</button>
+      <!-- Botão para enviar o formulário -->
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Raiza Karolaine de Freitas Vicente. Todos os direitos reservados.</p>
+    <!-- Rodapé do site com direitos autorais -->
+  </footer>
+
+</body>
+</html>
+

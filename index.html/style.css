@@ -1,0 +1,455 @@
+/* Estilos básicos para o site*/
+body {
+  font-family: Arial, sans-serif;  /* Define a fonte do texto para Arial ou fonte padrão sem serifa */
+  margin: 0px;                     /* Remove margem padrão do navegador */
+  background-color: #814646;      /* Cor de fundo clara para o site */
+  color: #000000;                 /* Cor do texto padrão preta */
+}
+
+header {
+  border-bottom: 2px solid #000000; /* Linha preta fina abaixo do cabeçalho */
+  margin-bottom: 20px;               /* Espaço embaixo do header */
+}
+
+h1 {
+  color: #c2185b; /* Cor rosa forte para títulos h1 */
+}
+
+h2 {
+  color: #c2185b; /* Cor rosa forte para títulos h2 */
+  margin-top: 30px; /* Espaço acima dos títulos h2 */
+}
+
+ul {
+  list-style-type: disc; /* Lista com marcadores tradicionais (bolinhas) */
+  padding-left: 20px;    /* Espaçamento interno à esquerda */
+}
+
+a {
+  color:#c2185b;       /* Cor rosa para links */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilo para a seção Projetos */
+.projeto {
+  background-color: #fff; /* Fundo branco */
+  padding: 15px;          /* Espaçamento interno */
+  margin-bottom: 20px;    /* Espaço abaixo da caixa do projeto */
+  border-radius: 8px;     /* Cantos arredondados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve para dar profundidade */
+}
+
+.projeto h3 {
+  color: #c2185b; /* Título do projeto em rosa */
+  margin-top: 0;  /* Remove margem superior para ficar mais próximo */
+}
+
+.projeto img {
+  max-width: 100%;  /* Imagem não ultrapassa o tamanho da caixa */
+  height: auto;     /* Mantém proporção da imagem */
+  border-radius: 6px; /* Cantos levemente arredondados na imagem */
+  margin-bottom: 10px; /* Espaço abaixo da imagem */
+}
+
+.projeto p {
+  color: #000000; /* Texto do parágrafo preto */
+  line-height: 1.5; /* Espaçamento entre linhas para melhor leitura */
+}
+
+.projeto a {
+  color: #c2185b;     /* Link do projeto em rosa */
+  text-decoration: none; /* Sem sublinhado */
+  font-weight: bold;   /* Negrito para destaque */
+}
+
+.projeto a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilo para a seção Formação Acadêmica */ 
+#formacao {
+  background-color: #fff; /* Fundo branco */
+  padding: 20px;          /* Espaçamento interno */
+  margin-top: 40px;       /* Espaço acima da seção */
+  border-radius: 8px;     /* Cantos arredondados */
+  box-shadow: 0 2px 5px rgba(5, 5, 5, 0.1); /* Sombra suave */
+}
+
+#formacao h2 {
+  color: #c2185b;       /* Título em rosa */
+  margin-bottom: 15px;  /* Espaço abaixo do título */
+}
+
+#formacao ul {
+  list-style-type: square; /* Marcadores quadrados */
+  padding-left: 20px;      /* Espaço interno à esquerda */
+  color: #000000;          /* Texto preto */
+}
+
+#formacao li {
+  margin-bottom: 10px; /* Espaço entre os itens da lista */
+  line-height: 1.4;    /* Espaçamento entre linhas */
+  font-size: 16px;     /* Tamanho da fonte */
+}
+
+/* Estilo para a seção Experiência Profissional */ 
+#experiencia {
+  background-color: #fff;  /* Fundo branco */
+  padding: 20px;           /* Espaçamento interno */
+  margin-top: 40px;        /* Espaço acima da seção */
+  border-radius: 8px;      /* Cantos arredondados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+#experiencia h2 {
+  color: #c2185b;      /* Título rosa */
+  margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+#experiencia ul {
+  list-style-type: square; /* Marcadores quadrados */
+  padding-left: 20px;      /* Espaço interno à esquerda */
+  color: #000000;          /* Texto preto */
+}
+
+#experiencia li {
+  margin-bottom: 10px; /* Espaço entre itens */
+  line-height: 1.4;    /* Espaçamento entre linhas */
+  font-size: 16px;     /* Tamanho da fonte */
+}
+
+/* Estilo para a seção Habilidades */ 
+#habilidades {
+  background-color: #fff;  /* Fundo branco */
+  padding: 20px;           /* Espaçamento interno */
+  margin-top: 40px;        /* Espaço acima da seção */
+  border-radius: 8px;      /* Cantos arredondados */
+  box-shadow: 0 2px 5px rgba(2, 0, 0, 0.1); /* Sombra suave */
+}
+
+#habilidades h2 {
+  color: #c2185b;      /* Título rosa */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#habilidades h3 {
+  color: #c2185b;      /* Subtítulos em rosa */
+  margin-bottom: 10px; /* Espaço abaixo dos subtítulos */
+}
+
+#habilidades ul {
+  list-style-type: circle; /* Marcadores em círculos */
+  padding-left: 25px;      /* Espaço à esquerda */
+  color: #000000;          /* Texto preto */
+  margin-bottom: 20px;     /* Espaço abaixo da lista */
+}
+
+#habilidades li {
+  margin-bottom: 8px;  /* Espaço entre itens */
+  font-size: 16px;     /* Tamanho da fonte */
+}
+
+/* Espaçamento entre as seções */ 
+section {
+  margin-bottom: 50px; /* Espaço abaixo de cada seção */
+}
+
+.projeto {
+  /* Acrescentando mais espaçamento abaixo dos projetos */
+  margin-bottom: 30px; /* Espaço maior entre projetos */
+}
+
+/* Ícones das redes sociais */
+.icones-redes img {
+  width: 28px;  /* Largura fixa */
+  height: 28px; /* Altura fixa */
+  transition: transform 0.3s ease; /* Transição suave para animação */
+}
+
+.icones-redes {
+  gap: 20px; /* Espaço entre os ícones */
+}
+
+/* Estilo da seção de contato */
+#contato {
+  padding: 40px;                /* Espaço interno */
+  background-color: #f9f9f9;    /* Fundo cinza claro */
+  text-align: center;           /* Centraliza texto e elementos */
+  border-radius: 8px;           /* Cantos arredondados */
+  margin-top: 40px;             /* Espaço acima da seção */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+#contato h2 {
+  margin-bottom: 20px;          /* Espaço abaixo do título */
+  color: #c2185b;               /* Cor rosa */
+}
+
+#contato form {
+  max-width: 500px;             /* Limita a largura do formulário */
+  margin: 0 auto;               /* Centraliza o formulário */
+  display: flex;                /* Usado flexbox para o layout */
+  flex-direction: column;       /* Organiza elementos em coluna */
+  gap: 15px;                   /* Espaço entre os campos */
+}
+
+#contato input,
+#contato textarea {
+  padding: 12px;               /* Espaçamento interno */
+  border: 1px solid #ccc;      /* Borda cinza clara */
+  border-radius: 6px;          /* Cantos arredondados */
+  font-size: 16px;             /* Tamanho da fonte */
+  resize: none;                /* Impede redimensionamento da textarea */
+}
+
+#contato button {
+  background-color: #c2185b;  /* Cor rosa do botão */
+  color: white;               /* Texto branco */
+  border: none;               /* Sem borda */
+  padding: 12px;              /* Espaçamento interno */
+  border-radius: 6px;         /* Cantos arredondados */
+  cursor: pointer;            /* Muda cursor para indicar clicável */
+  transition: background-color 0.3s ease; /* Transição suave da cor */
+}
+
+#contato button:hover {
+  background-color: #c2185b;  /* Cor do botão no hover (mesma aqui, poderia variar) */
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #c2185b; /* Fundo rosa */
+  color: #fff;               /* Texto branco */
+  text-align: center;        /* Centralizado */
+  padding: 15px 0;           /* Espaçamento vertical */
+  margin-top: 40px;          /* Espaço acima do rodapé */
+  font-size: 14px;           /* Texto menor */
+  border-radius: 0 0 8px 8px; /* Cantos arredondados somente em baixo */
+}
+
+/* Estilo para a seção Objetivo */
+#objetivo {
+  background-color: #fff;    /* Fundo branco */
+  padding: 20px;             /* Espaçamento interno */
+  margin-top: 40px;          /* Espaço acima da seção */
+  border-radius: 8px;        /* Cantos arredondados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+#objetivo h2 {
+  color: #c2185b;           /* Título em rosa */
+  margin-bottom: 15px;      /* Espaço abaixo do título */
+}
+
+#objetivo p {
+  color: #000000;           /* Texto preto */
+  font-size: 16px;          /* Tamanho da fonte */
+  line-height: 1.5;         /* Espaçamento entre linhas */
+}
+
+/* Estilo para menu fixo no topo */
+.menu-fixo {
+  position: fixed;            /* Fixa o menu no topo da página */
+  top: 0;                    /* Posicionado no topo */
+  width: 100%;               /* Ocupa toda a largura da tela */
+  background-color: #f8bbd0; /* Rosa suave de fundo */
+  box-shadow: 0 2px 5px rgba(232, 120, 153, 0.3); /* Sombra leve */
+  z-index: 1000;             /* Fica acima dos demais elementos */
+}
+
+.menu-fixo ul {
+  list-style: none;           /* Remove marcadores da lista */
+  display: flex;              /* Organiza itens em linha usando flexbox */
+  justify-content: center;    /* Centraliza horizontalmente */
+  margin: 0;                  /* Remove margens */
+  padding: 10px 0;            /* Espaçamento vertical */
+  gap: 25px;                  /* Espaçamento entre itens */
+}
+
+.menu-fixo li {
+  margin: 0;                 /* Remove margens */
+}
+
+/* Ajuste do menu fixo (parece repetido, pode limpar para um só) */
+.menu-fixo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ec407a;      /* Rosa forte no fundo */
+  border-bottom: 2px solid #ec407a; /* Linha rosa escura embaixo */
+  box-shadow: 0 2px 5px rgba(232, 120, 153, 0.3); /* Sombra rosa suave */
+  z-index: 1000;
+}
+
+.menu-fixo a {
+  color: #ffffff; /* Links brancos */
+  /* outros estilos seguem o padrão */
+}
+
+.menu-fixo a:hover {
+  background-color: #f8bbd0; /* Fundo rosa claro ao passar o mouse */
+  color: #050505;            /* Texto quase preto no hover */
+}
+
+/* Estilo geral do corpo atualizado para incluir padding no topo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  background-color: #fff0f6; /* Fundo rosa muito claro */
+  color: #000000;
+  padding-top: 60px;         /* Espaço no topo para o menu fixo não cobrir conteúdo */
+}
+
+/* Estilo para a seção Sobre Mim */
+.sobre-mim {
+  background-color: #fff;  /* Fundo branco */
+  padding: 25px 30px;     /* Espaçamento interno */
+  margin-top: 40px;       /* Espaço acima da seção */
+  border-radius: 12px;    /* Cantos bem arredondados */
+  box-shadow: 0 3px 10px rgba(232, 120, 153, 0.2); /* Sombra rosa suave */
+  max-width: 900px;       /* Largura máxima */
+  margin-left: auto;      /* Centraliza horizontalmente */
+  margin-right: auto;
+}
+
+.sobre-mim h2 {
+  color: #ec407a;          /* Rosa escuro */
+  margin-bottom: 18px;     /* Espaço abaixo */
+  font-size: 28px;         /* Tamanho da fonte maior */
+}
+
+.sobre-mim p {
+  color: #0e0d0d;          /* Preto bem escuro */
+  font-size: 17px;         /* Tamanho da fonte */
+  line-height: 1.6;        /* Espaçamento entre linhas */
+}
+
+/* Caixa rosa para destaque */
+.caixa-sobre {
+  background-color: #ffe6f0; /* Rosa claro */
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  color: #000000;
+}
+
+.caixa-sobre h2 {
+  color: #c2185b;
+  margin-bottom: 15px;
+}
+
+/* Classe para centralizar títulos */
+.titulo-centralizado {
+  text-align: center;
+}
+
+/* Animação de fadeIn */
+.titulo-centralizado {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Estilo da seção Hero */
+.hero {
+  text-align: center;          /* Centraliza tudo */
+  padding: 60px 20px;          /* Espaçamento */
+  background-color: #f8f8f8;   /* Fundo cinza claro */
+}
+
+.foto-hero {
+  width: 150px;                /* Largura fixa */
+  height: 150px;               /* Altura fixa */
+  object-fit: cover;           /* Corta imagem para cobrir totalmente */
+  border-radius: 50%;          /* Deixa a foto redonda */
+  margin-bottom: 20px;         /* Espaço abaixo da foto */
+  border: 3px solid #e91e63;  /* Borda rosa ao redor */
+}
+
+.botao-hero {
+  display: inline-block;       /* Comportamento de botão/link */
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #e91e63;  /* Cor rosa */
+  color: white;               /* Texto branco */
+  text-decoration: none;      /* Sem sublinhado */
+  border-radius: 16px;        /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.botao-hero:hover {
+  background-color: #c2185b; /* Rosa mais escuro ao passar o mouse */
+}
+
+.caixa-padrao {
+  background-color: #fff;   /* Fundo branco */
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+.centralizar-texto {
+  text-align: center; /* Centraliza o texto */
+}
+
+header {
+  border-bottom: 2px solid #ec407a; /* Rosa escuro na borda inferior */
+  margin-bottom: 20px;
+}
+
+/* Animação suave de aparecer */
+.fade-in {
+  opacity: 0;                   /* Inicialmente invisível */
+  transform: translateY(20px); /* Leve deslocamento para baixo */
+  animation: fadeInUp 1s ease-out forwards; /* Anima para visível e posição original */
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;               /* Totalmente visível */
+    transform: translateY(0); /* Posição normal */
+  }
+}
+
+/* Estilos do botão "Voltar ao topo" */
+#btnTopo {
+  display: none;              /* Escondido por padrão */
+  position: fixed;            /* Fixo na tela */
+  bottom: 40px;               /* Distância da parte inferior */
+  right: 30px;                /* Distância da direita */
+  z-index: 99;                /* Acima de outros elementos */
+  border: none;               /* Sem borda */
+  outline: none;              /* Sem contorno */
+  background-color: #ec407a; /* Rosa */
+  color: white;               /* Texto branco */
+  cursor: pointer;            /* Cursor de mãozinha */
+  padding: 12px 15px;         /* Espaçamento interno */
+  border-radius: 10px;        /* Bordas arredondadas */
+  font-size: 18px;            /* Tamanho da fonte */
+  box-shadow: 0 4px 6px #ec407a(0,0,0,0.2); /* Sombra (essa sintaxe está errada, deveria usar rgba) */
+  transition: 0.3s;           /* Transição suave */
+}
+
+#btnTopo:hover {
+  background-color: #555;    /* Cor cinza escuro no hover */
+}
+
+/* Caixa rosa para destaque */
+.caixa-rosa {
+  background-color: #ffe4ec; /* Rosa claro */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0
+
+}
