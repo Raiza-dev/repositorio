@@ -453,3 +453,50 @@ header {
   box-shadow: 0
 
 }
+
+/* Responsividade para telas menores (celulares) */
+@media (max-width: 768px) {
+  .caixa-sobre, .caixa-padrao, .hero {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
+
+  .foto-hero {
+    width: 120px;
+    height: 120px;
+  }
+
+  .botao-hero {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .whatsapp-float img {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .projeto h3 {
+    font-size: 18px;
+  }
+
+  .projeto p {
+    font-size: 14px;
+  }
+
+  .curriculo-box {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
